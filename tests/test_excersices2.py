@@ -11,10 +11,10 @@ class Employee():
 		self.year_salary += up_sal
 		
 	def show_salary(self):
-		"""Показывает текущую зарплату"""
-		print(f"{self.first_name.title()} {self.last_name.title()} получает зарплату {str(self.year_salary)}")
+		"""Возвращает текущую зарплату"""
+		return self.year_salary
 		
-admin = Employee('вася', 'пупкин', 1000)
-admin.show_salary()
-admin.give_raise(1000)
-admin.show_salary()
+#admin = Employee('вася', 'пупкин', 1000)
+#admin.show_salary()
+#admin.give_raise(1000)
+#admin.show_salary()
