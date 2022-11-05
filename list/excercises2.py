@@ -1,0 +1,15 @@
+countries=['Canada', 'USA', 'Russia', 'England', 'Poland']
+print(countries)
+print(sorted(countries))
+print(countries)
+print(sorted(countries,reverse=True)) #выводит список обратно алфавиту, но не сохраняет в переменной
+print(countries)
+countries.reverse()
+print(countries)
+countries.reverse()
+print(countries)
+countries.sort()
+print(countries)
+countries.sort(reverse=True)
+print(f"\n {countries}")
+print(countries[4])
